@@ -1,8 +1,10 @@
-## Live Demo
-https://solotoremake.vicious1509.repl.co
+# 🔨 Solo.to Remake
+Credits to [Solo.to](https://solo.to)
 
-## Preview
+### 💻 Recent Update
+- FadeIn Animation 
+- Avatar & Link Box Animation
+---
 
-<p align="center">
-  <img src="https://i.imgur.com/NAfZk9N.png" alt="Avatar">
-</p>
+## 🔎 Preview 
+You can view the [preview here!](https://solotoremake.vicious1509.repl.co/)
