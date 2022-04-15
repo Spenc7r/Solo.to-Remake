@@ -1,5 +1,6 @@
 # 🔨 Solo.to Remake
 Credits to [Solo.to](https://solo.to)
+---
 
 ### 💻 Recent Update
 - FadeIn Animation 
