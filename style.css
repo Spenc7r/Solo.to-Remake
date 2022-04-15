@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #242424;
+  color: #fff;
+  -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+body {
+  animation: fadeInAnimation ease 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  padding-bottom: 900px;
+}
+        
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  }
+
+
+#page {
+  overflow: hidden;
+}
+
+#banner {
+  background-color: #242424;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  padding-bottom: 300px;
+  display: inline-block;
+}
+
+#bio-card {
+  background-color: #333333;
+  width: 60%;
+  padding: 30px;
+  display: block;
+  position: absolute;
+  margin: 150px auto;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3px;
+}
+
+#bio-card h1 {
+  -webkit-touch-callout: text; 
+    -webkit-user-select: text; 
+     -khtml-user-select: text;
+       -moz-user-select: text;
+        -ms-user-select: text;
+            user-select: text;
+}
+
+#bio-card img {
+  width: 150px;
+  height: 150px;
+  margin-top: -100px;
+  border-radius: 100%;
+  transition-duration: 0.4s;
+}
+
+#bio-card img:hover {
+  transform: scale(1.05);
+}
+
+#bio-card button {
+  border: 0.5px solid #ffffff;
+  padding: 8px 13px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #2f3136;
+  color: #fff;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+#bio-card button:hover {
+  border: 0.5px solid #c7c7c7;
+}
+
+#bio-card .round-button {
+  padding: 8px 10px;
+  border: 0.5px solid #ffffff;
+  border-radius: 100%;
+}
+
+#bio-card #verified {
+  height: 18px;
+  width: 18px;
+  margin-bottom: 2px;
+  margin-left: -0px;
+}
+
+
+
+#buttons {
+  background-color: #333333;
+  width: 60%;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: block;
+  position: absolute;
+  margin: 450px auto;
+  left: 0;
+  right: 0;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3px;
+  transition-duration: 0.4s;
+}
+
+#buttons-2 {
+  background-color: #333333;
+  width: 60%;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: block;
+  position: absolute;
+  margin: 550px auto;
+  left: 0;
+  right: 0;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3px;
+  transition-duration: 0.4s;
+}
+
+#buttons-3 {
+  background-color: #333333;
+  width: 60%;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: block;
+  position: absolute;
+  margin: 650px auto;
+  left: 0;
+  right: 0;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3px;
+  transition-duration: 0.4s;
+}
+
+#buttons-4 {
+  background-color: #333333;
+  width: 60%;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: block;
+  position: absolute;
+  margin: 750px auto;
+  left: 0;
+  right: 0;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3px;
+  transition-duration: 0.4s;
+}
+
+#buttons img {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: -15px;
+  padding-right: 10px;
+}
+
+#buttons-2 img {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: -15px;
+  padding-right: 10px;
+}
+
+#buttons-3 img {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: -15px;
+  padding-right: 10px;
+}
+
+#buttons-4 img {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: -15px;
+  padding-right: 10px;
+}
+
+#buttons:hover {
+  transform: scale(1.01);
+}
+
+#buttons-2:hover {
+  transform: scale(1.01);
+}
+
+#buttons-3:hover {
+  transform: scale(1.01);
+}
+
+#buttons-4:hover {
+  transform: scale(1.01);
+}
+
+a {
+  color: #fff;
+}
+
+.fa-youtube {
+  color: #fff;
+}
+
+.fa-twitter {
+  color: #fff;
+}
+
+.fa-github {
+  color: #fff;
+  
+}
