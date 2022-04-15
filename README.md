@@ -8,4 +8,4 @@ Credits to [Solo.to](https://solo.to)
 ---
 
 ## 🔎 Preview 
-You can view the [preview here!](https://solotoremake.vicious1509.repl.co/)
+[View Site Preview](https://solotoremake.vicious1509.repl.co/)
